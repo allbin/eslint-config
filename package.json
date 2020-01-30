@@ -1,0 +1,23 @@
+{
+  "name": "@allbin/eslint-config",
+  "version": "0.0.1",
+  "description": "All Binary ESLint",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@typescript-eslint/parser": "^2.18.0",
+    "eslint": "^6.8.0",
+    "typescript": "^3.7.5"
+  },
+  "peerDependencies": {
+    "eslint-config-prettier": ">= 6",
+    "eslint-plugin-prettier": ">= 3",
+    "prettier": ">= 1",
+    "@typescript-eslint/eslint-plugin": ">= 2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
