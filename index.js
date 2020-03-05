@@ -23,7 +23,13 @@ module.exports = {
   },
   plugins: ["prettier", "@typescript-eslint"],
   rules: {
-    "prettier/prettier": "error",
+    "prettier/prettier": [
+      "error",
+      {
+        singleQuote: true,
+        trailingComma: "all",
+      },
+    ]
     "@typescript-eslint/camelcase": "off",
     "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/explicit-function-return-type": [
